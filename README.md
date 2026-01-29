@@ -32,4 +32,4 @@ Proyek ini menggunakan lisensi Apache 2.0. Lihat file [LICENSE](LICENSE) untuk i
 ## 🙏 Terima Kasih
 Jika ada pertanyaan, buat issue di [GitHub](https://github.com/afriii69/PerhitunganModulFisika).
 
-#Fisika #Kalkulator #OpenSource #GitHubPages #DiBuatOlehAI #AFRI_TeknikElektro
+#Fisika #Kalkulator #OpenSource #GitHubPages #AFRI_TeknikElektro
