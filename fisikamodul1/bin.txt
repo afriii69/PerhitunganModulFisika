@@ -1,0 +1,102 @@
+<div class="biji wi"> <!-- TABEL 2 AFRI -->
+      <h3>Tabel 2. Solenoida <input id="tl3" class="intl" placeholder=". . ." type="number" step="any"> lilitan</h3>
+      <table>
+        <tr>
+          <th rowspan="2">No.</th>
+          <th colspan="3">B (x10<sup>-3</sup> Tesla)</th>
+        </tr>
+        <tr>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><input id="3I71" type="number" step="any"></td>
+          <td><input id="3I61" type="number" step="any"></td>
+          <td><input id="3I51" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><input id="3I72" type="number" step="any"></td>
+          <td><input id="3I62" type="number" step="any"></td>
+          <td><input id="3I52" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><input id="3I73" type="number" step="any"></td>
+          <td><input id="3I63" type="number" step="any"></td>
+          <td><input id="3I53" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><input id="3I74" type="number" step="any"></td>
+          <td><input id="3I64" type="number" step="any"></td>
+          <td><input id="3I54" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><input id="3I75" type="number" step="any"></td>
+          <td><input id="3I65" type="number" step="any"></td>
+          <td><input id="3I55" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>total</sub></i></td>
+          <td id="3i7x"></td>
+          <td id="3i6x"></td>
+          <td id="3i5x"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>rata2</sub></i></td>
+          <td id="3i7r"></td>
+          <td id="3i6r"></td>
+          <td id="3i5r"></td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="4" style="background-color: rgb(211, 255, 255);">Hasil Perhitungan B</th>
+        </tr>
+        <tr>
+          <th>No.</th>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td id="3b71"></td>
+          <td id="3b61"></td>
+          <td id="3b51"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td id="3b72"></td>
+          <td id="3b62"></td>
+          <td id="3b52"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td id="3b73"></td>
+          <td id="3b63"></td>
+          <td id="3b53"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td id="3b74"></td>
+          <td id="3b64"></td>
+          <td id="3b54"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td id="3b75"></td>
+          <td id="3b65"></td>
+          <td id="3b55"></td>
+        </tr>
+      </table>
+      <p style="font-size: 14px;">Note: jika hasil <b>NaN(Not a Number)</b> coba cek apakah anda sudah memasukan data
+        dan jumlah lilitan👑?</p>
+    </div>

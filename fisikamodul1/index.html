@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modul 1 AFRI</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Perhitungan Fisika Modul 1</h1>
+    <nav>
+      <a href="./../index.html" style="color: white; margin: 0 15px;">Home</a>
+    </nav>
+  </header>
+
+  <br><br>
+
+  <div class="biji">
+    <h4>Catatan: </h4>
+    <p>Bagi mahasiswa yang lilitan nya bervariasi, silahkan ganti angka lilitan pada header tabel nya.
+      Dan juga jangan lupa isi value <b>L</b> nya di setiap tabel ya.
+      Hasil <b>1.12e-3</b> itu artinya <b>1.12 x10^-3</b> </p>
+  </div>
+
+  <br><br>
+
+  <span>
+    <div class="biji wi"> <!-- TABEL 1 AFRI -->
+      <h3>Tabel 1. Solenoida <input id="tl1" class="intl" placeholder=". . ." type="number" step="any" value="60"> lilitan. Value L = <input id="vt1" class="intl" style="width: 100px;" type="number" placeholder=". . . . . . . . . . . . ." value="0"></h3>
+      <p style="font-size: 14px;">Note: Value <b>L</b> jangan gunakan exponensial. namun di ubah dulu ke bilangan desimal/real</p>
+      <table>
+        <tr>
+          <th rowspan="2">No.</th>
+          <th colspan="3">B (x10<sup>-3</sup> Tesla)</th>
+        </tr>
+        <tr>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><input id="1I71" type="number" step="any"></td>
+          <td><input id="1I61" type="number" step="any"></td>
+          <td><input id="1I51" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><input id="1I72" type="number" step="any"></td>
+          <td><input id="1I62" type="number" step="any"></td>
+          <td><input id="1I52" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><input id="1I73" type="number" step="any"></td>
+          <td><input id="1I63" type="number" step="any"></td>
+          <td><input id="1I53" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><input id="1I74" type="number" step="any"></td>
+          <td><input id="1I64" type="number" step="any"></td>
+          <td><input id="1I54" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><input id="1I75" type="number" step="any"></td>
+          <td><input id="1I65" type="number" step="any"></td>
+          <td><input id="1I55" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>total</sub></i></td>
+          <td id="1i7x"></td>
+          <td id="1i6x"></td>
+          <td id="1i5x"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>rata2</sub></i></td>
+          <td id="1i7r"></td>
+          <td id="1i6r"></td>
+          <td id="1i5r"></td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="4" style="background-color: rgb(211, 255, 255);">Hasil Perhitungan B</th>
+        </tr>
+        <tr>
+          <th>No.</th>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td id="1b71"></td>
+          <td id="1b61"></td>
+          <td id="1b51"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td id="1b72"></td>
+          <td id="1b62"></td>
+          <td id="1b52"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td id="1b73"></td>
+          <td id="1b63"></td>
+          <td id="1b53"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td id="1b74"></td>
+          <td id="1b64"></td>
+          <td id="1b54"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td id="1b75"></td>
+          <td id="1b65"></td>
+          <td id="1b55"></td>
+        </tr>
+      </table>
+      <p style="font-size: 14px;">Note: jika hasil <b>NaN(Not a Number)</b> coba cek apakah anda sudah memasukan data
+        dan jumlah lilitan👑?</p>
+    </div>
+
+    &nbsp;&nbsp;
+
+    <div class="biji wi"> <!-- TABEL 2 AFRI -->
+      <h3>Tabel 2. Solenoida <input id="tl2" class="intl" placeholder=". . ." type="number" step="any" value="90"> lilitan. Value L = <input id="vt2" class="intl" style="width: 100px;" type="number" placeholder=". . . . . . . . . . . . ." value="0"></h3>
+      <p style="font-size: 14px;">Note: Value <b>L</b> jangan gunakan exponensial. namun di ubah dulu ke bilangan desimal/real</p>
+      <table>
+        <tr>
+          <th rowspan="2">No.</th>
+          <th colspan="3">B (x10<sup>-3</sup> Tesla)</th>
+        </tr>
+        <tr>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><input id="2I71" type="number" step="any"></td>
+          <td><input id="2I61" type="number" step="any"></td>
+          <td><input id="2I51" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><input id="2I72" type="number" step="any"></td>
+          <td><input id="2I62" type="number" step="any"></td>
+          <td><input id="2I52" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><input id="2I73" type="number" step="any"></td>
+          <td><input id="2I63" type="number" step="any"></td>
+          <td><input id="2I53" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><input id="2I74" type="number" step="any"></td>
+          <td><input id="2I64" type="number" step="any"></td>
+          <td><input id="2I54" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><input id="2I75" type="number" step="any"></td>
+          <td><input id="2I65" type="number" step="any"></td>
+          <td><input id="2I55" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>total</sub></i></td>
+          <td id="2i7x"></td>
+          <td id="2i6x"></td>
+          <td id="2i5x"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>rata2</sub></i></td>
+          <td id="2i7r"></td>
+          <td id="2i6r"></td>
+          <td id="2i5r"></td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="4" style="background-color: rgb(211, 255, 255);">Hasil Perhitungan B</th>
+        </tr>
+        <tr>
+          <th>No.</th>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td id="2b71"></td>
+          <td id="2b61"></td>
+          <td id="2b51"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td id="2b72"></td>
+          <td id="2b62"></td>
+          <td id="2b52"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td id="2b73"></td>
+          <td id="2b63"></td>
+          <td id="2b53"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td id="2b74"></td>
+          <td id="2b64"></td>
+          <td id="2b54"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td id="2b75"></td>
+          <td id="2b65"></td>
+          <td id="2b55"></td>
+        </tr>
+      </table>
+      <p style="font-size: 14px;">Note: jika hasil <b>NaN(Not a Number)</b> coba cek apakah anda sudah memasukan data
+        dan jumlah lilitan👑?</p>
+    </div>
+
+    &nbsp;&nbsp;
+
+    <div class="biji wi"> <!-- TABEL 3 AFRI -->
+      <h3>Tabel 3. Solenoida <input id="tl3" class="intl" placeholder=". . ." type="number" step="any" value="120"> lilitan. Value L = <input id="vt3" class="intl" style="width: 100px;" type="number" placeholder=". . . . . . . . . . . . ." value="0"></h3>
+      <p style="font-size: 14px;">Note: Value <b>L</b> jangan gunakan exponensial. namun di ubah dulu ke bilangan desimal/real</p>
+      <table>
+        <tr>
+          <th rowspan="2">No.</th>
+          <th colspan="3">B (x10<sup>-3</sup> Tesla)</th>
+        </tr>
+        <tr>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><input id="3I71" type="number" step="any"></td>
+          <td><input id="3I61" type="number" step="any"></td>
+          <td><input id="3I51" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><input id="3I72" type="number" step="any"></td>
+          <td><input id="3I62" type="number" step="any"></td>
+          <td><input id="3I52" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><input id="3I73" type="number" step="any"></td>
+          <td><input id="3I63" type="number" step="any"></td>
+          <td><input id="3I53" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><input id="3I74" type="number" step="any"></td>
+          <td><input id="3I64" type="number" step="any"></td>
+          <td><input id="3I54" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><input id="3I75" type="number" step="any"></td>
+          <td><input id="3I65" type="number" step="any"></td>
+          <td><input id="3I55" type="number" step="any"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>total</sub></i></td>
+          <td id="3i7x"></td>
+          <td id="3i6x"></td>
+          <td id="3i5x"></td>
+        </tr>
+        <tr>
+          <td><i>x<sub>rata2</sub></i></td>
+          <td id="3i7r"></td>
+          <td id="3i6r"></td>
+          <td id="3i5r"></td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="4" style="background-color: rgb(211, 255, 255);">Hasil Perhitungan B</th>
+        </tr>
+        <tr>
+          <th>No.</th>
+          <th>I = 0,7 A</th>
+          <th>I = 0,6 A</th>
+          <th>I = 0,5 A</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td id="3b71"></td>
+          <td id="3b61"></td>
+          <td id="3b51"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td id="3b72"></td>
+          <td id="3b62"></td>
+          <td id="3b52"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td id="3b73"></td>
+          <td id="3b63"></td>
+          <td id="3b53"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td id="3b74"></td>
+          <td id="3b64"></td>
+          <td id="3b54"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td id="3b75"></td>
+          <td id="3b65"></td>
+          <td id="3b55"></td>
+        </tr>
+      </table>
+      <p style="font-size: 14px;">Note: jika hasil <b>NaN(Not a Number)</b> coba cek apakah anda sudah memasukan data
+        dan jumlah lilitan👑?</p>
+    </div>
+
+
+    <br><br><br>
+
+    <br>
+    <button id="btn1" class="biji apply ge">Hitung</button>
+    &nbsp; &nbsp;
+    <button id="btn2" class="biji apply re">Reset</button>
+
+    <div id="overlay"></div>
+    <div id="pp">
+      <p>Kamu yakin ingin reset?</p>
+      <button class="yes" onclick="resY()">Ya</button>
+      <button class="no" onclick="resN()">Tidak</button>
+    </div>
+
+    <br><br>
+    Thanks to: <br>
+    - <a class="cl" href="https://www.w3schools.com/" target="_blank">W3 Schools</a> <br>
+    - <a class="cl" href="https://getcssscan.com/" target="_blank">Get CSS Scan</a> <br>
+    <br><br><br><br><br>
+  </span>
+
+
+  <footer>
+    <p>&copy;2025 Muhammad Afriandy. 124130116</p>
+  </footer>
+
+  <script src="./htng.js"></script>
+</body>
+
+</html>

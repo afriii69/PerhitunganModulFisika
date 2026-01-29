@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: #158a92d2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.bijinya {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.cl {
+    text-decoration: none;
+    color: #58a6ff;
+}

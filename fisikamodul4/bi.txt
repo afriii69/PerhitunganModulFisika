@@ -1,0 +1,62 @@
+<div>
+            <p>Tabel 3</p>
+            <table>
+                <tr>
+                    <th><b>Sudut (°)</b></th>
+                    <th>Intensitas Receiver (Im)</th>
+                    <th>Intensitas Transmitter (Io)</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" id="emp1" value=""></td>
+                    <td><output type="number" id="dnemp1" value=""></td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><input type="number" id="emp2" value=""></td>
+                    <td><output type="number" id="dnemp2" value=""></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><input type="number" id="emp3" value=""></td>
+                    <td><output type="number" id="dnemp3" value=""></td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><input type="number" id="emp4" value=""></td>
+                    <td><output type="number" id="dnemp4" value=""></td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><input type="number" id="emp5" value=""></td>
+                    <td><output type="number" id="dnemp5" value=""></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><input type="number" id="emp6" value=""></td>
+                    <td><output type="number" id="dnemp6" value=""></td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td><input type="number" id="emp7" value=""></td>
+                    <td><output type="number" id="dnemp7" value=""></td>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td><input type="number" id="emp8" value=""></td>
+                    <td><output type="number" id="dnemp8" value=""></td>
+                </tr>
+                <tr>
+                    <td>160</td>
+                    <td><input type="number" id="emp9" value=""></td>
+                    <td><output type="number" id="dnemp9" value=""></td>
+                </tr>
+                <tr>
+                    <td>180</td>
+                    <td><input type="number" id="emp0" value=""></td>
+                    <td><output type="number" id="dnemp0" value=""></td>
+                </tr>
+
+            </table>
+        </div>

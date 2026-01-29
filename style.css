@@ -1,0 +1,255 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url('https://images7.alphacoders.com/137/1376782.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #42a5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+
+.toggle-btn {
+    display: block;
+    background-color: #42a5f5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sb {
+    z-index: 4;
+    width: 250px;
+    background-color: #000000ee;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s ease;
+    overflow: auto;
+}
+
+.sb a {
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.3s ease;
+}
+
+.jdl {
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.3s ease;
+}
+
+.sb a:hover {
+    background-color: #333;
+}
+
+.close-btn {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.ct {
+    padding: 20px;
+    transition: margin-right 0.3s ease;
+}
+
+.card {
+    background-color: #000000cb;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+.cbtn {
+    margin-left: 10px;
+    background-color: #00e1ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.centang {
+    margin-left: 10px;
+    background-color: #00ff00;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.jnck {
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.cli {
+    text-decoration: none;
+    color: #6495ed;
+}
+
+.niggaform {
+    display: block;
+}
+
+.niggaform input {
+    background-color: #0000009d;
+    width: 110px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.niggaform textarea {
+    background-color: #0000009d;
+    width: 100%;
+    height: 10%;
+    border-radius: 3px;
+    color: white;
+}
+
+.niggaform button {
+    align-self: center;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    width: 60px;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.nig {
+    align-self: center;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 2px;
+    width: 60px;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.apply:hover {
+    box-shadow: #00e1ff 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.apply:focus {
+    box-shadow: #00e1ff 2px 8px 4px -6px;
+}
+
+.komclass {
+    background-color: #000000cb;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .sb {
+        transform: translateX(250px);
+    }
+
+    .ct {
+        margin-right: 0;
+    }
+}

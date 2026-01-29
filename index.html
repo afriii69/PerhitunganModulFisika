@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Afri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <nav> <!-- sv nav later lah-->
+                <img height="50px"
+                    src="https://www.shutterstock.com/shutterstock/photos/2045227664/display_1500/stock-vector-cartel-icon-vector-logo-design-2045227664.jpg"
+                    alt="admin slot">
+                <div class="logo">AFRI ANIME</div>
+            </nav>
+            <button class="toggle-btn" id="tgb">☰</button>
+        </header>
+
+        <div class="sb" id="sb">
+            <button class="close-btn" id="c">✖ Close</button>
+
+            <jdl class="jdl">Semester 1</jdl>
+            <a href="./unable/index.html">Modul 1 ❌</a>
+            <a href="./unable/index.html">Modul 2 ❌</a>
+            <a href="./unable/index.html">Modul 3 ❌</a>
+            <a href="./unable/index.html">Modul 4 ❌</a>
+            <a href="./unable/index.html">Modul 5 ❌</a>
+            <a href="./unable/index.html">Modul 6 ❌</a>
+
+            <br><br>
+            <jdl class="jdl">Semester 2</jdl>
+            <a href="./fisikamodul1/index.html">Modul 1 ✅</a>
+            <a href="./fisikamodul2/index.html">Modul 2 ❌</a>
+            <a href="./fisikamodul3/index.html">Modul 3 ❌</a>
+            <a href="./fisikamodul4/index.html">Modul 4 ✅</a>
+            <a href="./fisikamodul5/index.html">Modul 5 ✅</a>
+            <br><br><br><br><br><br><br>
+        </div>
+
+        <div id="overlay"></div>
+
+
+        <div class="ct" id="ct">
+            <!-- donate -->
+            <div class="card">
+                <h2>Donate pls 💸</h2>
+                <hr><br>
+
+                <span><a href="https://link.dana.id/minta/2vu2is132n0" class="cli" target="_blank">DANA: </a>
+                    <no id="ttc1">083136491133</no>
+                </span>
+                <button id="cbtn1" class="cbtn">Copy 📄</button> <br><br>
+
+                <span>GoPay: <no id="ttc2">083894887881</no></span>
+                <button id="cbtn2" class="cbtn">Copy 📄</button> <br><br>
+
+                <i style="font-size: 10px;">Bang kok ada donate nya? ga ikhlas ta? Bro admin butuh uang buat
+                    jajan🥺🫶🏻💞</i>
+            </div>
+
+            <!-- comment -->
+            <div class="card">
+                <h2>Comment 💬</h2>
+                <hr> <br>
+
+                <span class="niggaform">
+                    <input type="text" id="nme" placeholder="Nama (opsional)">
+                    <textarea id="cmn" placeholder="jangan toxic ya...." rows="4"></textarea>
+                    <button class="nig apply" id="blyatman">Kirim</button>
+                </span> <br><br>
+
+                <button class="nig apply" id="hidek" style="display: flexbox; color: white; font-size: 14px; border-radius: 3px; border: none; background-color: rgb(0, 0, 0);">Hide</button>
+                <button class="nig apply" id="showk" style="display: none; color: white; font-size: 14px; border-radius: 3px; border: none; background-color: rgb(0, 0, 0);">Show</button>
+
+                <br><br>
+                <div id="hidehandle">
+                    <div id="kCon"></div>
+                </div>
+
+                <br>
+                <i style="font-size: 10px;">Thanks To: <a href="https://jsonblob.com/" target="_blank">Jsonblob</a></i>
+            </div>
+
+
+            <!-- update bruh? -->
+            <div class="card">
+                <h2>Update info 📢</h2>
+                <hr><br>
+
+                <b>V1.3.6 Modul 1</b> <br>
+                <i>09 Apr 2025:</i> Math Error Fix. Tq buat Swetta ygy udh teliti di perhitungan. (perhitungan lama ada kelainan untuk Value B, karna lagi2 salah referensi laprak wkwk). <br><br><br>
+
+                <b>V1.3.5 Modul 1</b> <br>
+                <i>09 Apr 2025:</i> perhitungan untuk modul 1 telah di publikasikan untuk umum (cape wkwk banyak error mulu karna referensi laprak dari org ada yg salah). <br><br><br>
+
+                <b>V1.3.4 Url Bug</b> <br>
+                <i>09 Apr 2025:</i> ada yg ngelapor link nya ngebug min, ngeblank mulu. Nah sekarang udh gw fix coy. Lupa ada code yg blm kehapus hhe jadinya malah nampilin blank doang. <br><br><br>
+
+                <b>V1.3.3 Secret Key Fix</b> <br>
+                <i>08 Apr 2025:</i> Fixing sKey untuk kenyamanan pengguna (tapi kayaknya masih bisa di jebol sih) nah setidaknya keamanan data sudah lebih baik sekarang.... mungkin. <br><br><br>
+
+                <b>V1.3.2 Modul 4</b> <br>
+                <i>08 Apr 2025:</i> Math fix & mengefesiensikan kode. Yg lama terlalu berat (habis belajar array, langsung simpel kerjaan) <br><br><br>
+
+                <b>V1.3.1 Comment Section</b> <br>
+                <i>08 Apr 2025:</i> Admin menambahkan kolom komentar biar keren (jangan berkata kasar yah). <br><br><br>
+
+                <b>V1.3.0 Modul 1</b> <br>
+                <i>08 Apr 2025:</i> Upload testing tabel, tolong jangan di pake dulu ya (Maintenance 🔃). <br><br><br>
+
+                <b>V1.2.2 Modul 5</b> <br>
+                <i>08 Apr 2025:</i> KRS & &lambda; &#772; Math fix. Ada bug di 2 hal itu, dan sudah di fix. <br><br><br>
+
+                <b>V1.2.1 Modul 5</b> <br>
+                <i>07 Apr 2025:</i> KRS Error Math. sesad cog laprak org yg gw jadiin referensi. Tapi sekarang dah
+                betul. <br><br><br>
+
+                <b>V1.2.0 Dashboard Afri</b> <br>
+                <i>07 Apr 2025:</i> admin sudah bikin dashboard coy biar ganteng nih tampilan. dan ada donate nya
+                pula (merasa keren). <br><br><br>
+
+                <b>V1.1.0 Modul 5</b> <br>
+                <i>06 Apr 2025:</i> perhitungan untuk modul 5 telah di publikasikan untuk umum (anjayyyy mana
+                tampilannya kece bgt lagi). <br><br><br>
+
+                <b>V1.0.0 Modul 4</b> <br>
+                <i>11 Mar 2025:</i> perhitungan untuk modul 4 telah di publikasikan untuk umum (vjird lah berasa
+                developer).
+            </div>
+            <br><br><br><br><br><br>
+        </div>
+
+        <footer>
+            <p>&copy;2025 Afri.</p>
+        </footer>
+    </div>
+
+    <script src="sb.js"></script>
+    <script src="chandle.js"></script>
+</body>
+
+</html>

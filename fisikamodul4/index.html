@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 4 AFRI</title>
+    </title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Perhitungan Fisika Modul 4</h1>
+        <nav>
+            <a href="./../index.html" style="color: white; margin: 0 15px;">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <br><br><br>
+
+        <div> <!-- TABEL 2 AFRI-->
+            <p>Tabel 2</p>
+            <table>
+                <tr>
+                    <th><b>Sudut (°)</b></th>
+                    <th>Intensitas Receiver (Im)</th>
+                    <th>Intensitas Transmitter (Io)</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" id="in1" value=""></td>
+                    <td><output type="number" id="nin1" value=""></td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><input type="number" id="in2" value=""></td>
+                    <td><output type="number" id="nin2" value=""></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><input type="number" id="in3" value=""></td>
+                    <td><output type="number" id="nin3" value=""></td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><input type="number" id="in4" value=""></td>
+                    <td><output type="number" id="nin4" value=""></td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><input type="number" id="in5" value=""></td>
+                    <td><output type="number" id="nin5" value=""></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><input type="number" id="in6" value=""></td>
+                    <td><output type="number" id="nin6" value=""></td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td><input type="number" id="in7" value=""></td>
+                    <td><output type="number" id="nin7" value=""></td>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td><input type="number" id="in8" value=""></td>
+                    <td><output type="number" id="nin8" value=""></td>
+                </tr>
+                <tr>
+                    <td>160</td>
+                    <td><input type="number" id="in9" value=""></td>
+                    <td><output type="number" id="nin9" value=""></td>
+                </tr>
+                <tr>
+                    <td>180</td>
+                    <td><input type="number" id="in0" value=""></td>
+                    <td><output type="number" id="nin0" value=""></td>
+                </tr>
+                <tr>
+                    <td>I <sub>rata2</sub></td>
+                    <td><output id="srlm" value=""></output></td>
+                    <td><output id="srlo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td><output id="sslm" value=""></output></td>
+                    <td><output id="sslo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>Ketelitian</td>
+                    <td><output id="sklm" value=""></output></td>
+                    <td><output id="sklo" value=""></output></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <br><br><br>
+
+        <div> <!-- TABEL 3 AFRI-->
+            <p>Tabel 3</p>
+            <table>
+                <tr>
+                    <th><b>Sudut (°)</b></th>
+                    <th>Intensitas Receiver (Im)</th>
+                    <th>Intensitas Transmitter (Io)</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" id="din1" value=""></td>
+                    <td><output type="number" id="dndin1" value=""></td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><input type="number" id="din2" value=""></td>
+                    <td><output type="number" id="dndin2" value=""></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><input type="number" id="din3" value=""></td>
+                    <td><output type="number" id="dndin3" value=""></td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><input type="number" id="din4" value=""></td>
+                    <td><output type="number" id="dndin4" value=""></td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><input type="number" id="din5" value=""></td>
+                    <td><output type="number" id="dndin5" value=""></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><input type="number" id="din6" value=""></td>
+                    <td><output type="number" id="dndin6" value=""></td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td><input type="number" id="din7" value=""></td>
+                    <td><output type="number" id="dndin7" value=""></td>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td><input type="number" id="din8" value=""></td>
+                    <td><output type="number" id="dndin8" value=""></td>
+                </tr>
+                <tr>
+                    <td>160</td>
+                    <td><input type="number" id="din9" value=""></td>
+                    <td><output type="number" id="dndin9" value=""></td>
+                </tr>
+                <tr>
+                    <td>180</td>
+                    <td><input type="number" id="din0" value=""></td>
+                    <td><output type="number" id="dndin0" value=""></td>
+                </tr>
+                <tr>
+                    <td>I <sub>rata2</sub></td>
+                    <td><output id="drlm" value=""></output></td>
+                    <td><output id="drlo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td><output id="dslm" value=""></output></td>
+                    <td><output id="dslo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>Ketelitian</td>
+                    <td><output id="dklm" value=""></output></td>
+                    <td><output id="dklo" value=""></output></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <br><br><br>
+
+        <div> <!-- TABEL 4 AFRI-->
+            <p>Tabel 4</p>
+            <table>
+                <tr>
+                    <th><b>Sudut (°)</b></th>
+                    <th>Intensitas Receiver (Im)</th>
+                    <th>Intensitas Transmitter (Io)</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" id="tin1" value=""></td>
+                    <td><output type="number" id="dntin1" value=""></td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><input type="number" id="tin2" value=""></td>
+                    <td><output type="number" id="dntin2" value=""></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><input type="number" id="tin3" value=""></td>
+                    <td><output type="number" id="dntin3" value=""></td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><input type="number" id="tin4" value=""></td>
+                    <td><output type="number" id="dntin4" value=""></td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><input type="number" id="tin5" value=""></td>
+                    <td><output type="number" id="dntin5" value=""></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><input type="number" id="tin6" value=""></td>
+                    <td><output type="number" id="dntin6" value=""></td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td><input type="number" id="tin7" value=""></td>
+                    <td><output type="number" id="dntin7" value=""></td>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td><input type="number" id="tin8" value=""></td>
+                    <td><output type="number" id="dntin8" value=""></td>
+                </tr>
+                <tr>
+                    <td>160</td>
+                    <td><input type="number" id="tin9" value=""></td>
+                    <td><output type="number" id="dntin9" value=""></td>
+                </tr>
+                <tr>
+                    <td>180</td>
+                    <td><input type="number" id="tin0" value=""></td>
+                    <td><output type="number" id="dntin0" value=""></td>
+                </tr>
+                <tr>
+                    <td>I <sub>rata2</sub></td>
+                    <td><output id="trlm" value=""></output></td>
+                    <td><output id="trlo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td><output id="tslm" value=""></output></td>
+                    <td><output id="tslo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>Ketelitian</td>
+                    <td><output id="tklm" value=""></output></td>
+                    <td><output id="tklo" value=""></output></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <br><br><br>
+
+        <div> <!-- TABEL 5 AFRI-->
+            <p>Tabel 5</p>
+            <table>
+                <tr>
+                    <th><b>Sudut (°)</b></th>
+                    <th>Intensitas Receiver (Im)</th>
+                    <th>Intensitas Transmitter (Io)</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" id="emp1" value=""></td>
+                    <td><output type="number" id="dnemp1" value=""></td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><input type="number" id="emp2" value=""></td>
+                    <td><output type="number" id="dnemp2" value=""></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><input type="number" id="emp3" value=""></td>
+                    <td><output type="number" id="dnemp3" value=""></td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><input type="number" id="emp4" value=""></td>
+                    <td><output type="number" id="dnemp4" value=""></td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><input type="number" id="emp5" value=""></td>
+                    <td><output type="number" id="dnemp5" value=""></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><input type="number" id="emp6" value=""></td>
+                    <td><output type="number" id="dnemp6" value=""></td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td><input type="number" id="emp7" value=""></td>
+                    <td><output type="number" id="dnemp7" value=""></td>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td><input type="number" id="emp8" value=""></td>
+                    <td><output type="number" id="dnemp8" value=""></td>
+                </tr>
+                <tr>
+                    <td>160</td>
+                    <td><input type="number" id="emp9" value=""></td>
+                    <td><output type="number" id="dnemp9" value=""></td>
+                </tr>
+                <tr>
+                    <td>180</td>
+                    <td><input type="number" id="emp0" value=""></td>
+                    <td><output type="number" id="dnemp0" value=""></td>
+                </tr>
+                <tr>
+                    <td>I <sub>rata2</sub></td>
+                    <td><output id="erlm" value=""></output></td>
+                    <td><output id="erlo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td><output id="eslm" value=""></output></td>
+                    <td><output id="eslo" value=""></output></td>
+                </tr>
+                <tr>
+                    <td>Ketelitian</td>
+                    <td><output id="eklm" value=""></output></td>
+                    <td><output id="eklo" value=""></output></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <br>
+        <button class="bijinya" id="btn1" onclick="bijisegalanya()">hitung</button>
+        <br>
+
+        <br><br><br><br><br>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Muhammad Afriandy. 124130116</p>
+    </footer>
+
+    <script src="./hitung.js"></script>
+</body>
+
+</html>

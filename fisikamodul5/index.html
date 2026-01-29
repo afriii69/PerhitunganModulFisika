@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modul 5 AFRI</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Perhitungan Fisika Modul 5</h1>
+    <nav>
+      <a href="./../index.html" style="color: white; margin: 0 15px;">Home</a>
+    </nav>
+  </header>
+
+  <br><br>
+  
+  <div class="biji"> <!-- cat -->
+    <h4>Catatan:</h4>
+    <p>
+      Untuk mahasiswa yang data y1 y2 y3 nya ada yg kosong, mungkin kalian harus memeriksa ulang perhitungan <b>&lambda; &#772;</b> nya (kalo males yowes).
+      Hasil <b>1.12e-3</b> itu artinya <b>1.12 x10^-3</b> 
+    </p>
+  </div>
+
+  <span>
+    <br><br><br>
+
+    <div class="biji wi"> <!-- TABEL 1 AFRI -->
+      <caption>TABEL 1 CELAH TUNGGAL</caption>
+      <table>
+        <tr>
+          <th>n<br>(jumlah celah)</th>
+          <th>l<br>(m)</th>
+          <th>d x10<sup>-3</sup><br>(m)</th>
+          <th>y<br>(m)</th>
+          <th>&lambda; (m)</th>
+          <th>KSR (%)</th>
+        </tr>
+
+        <tr>
+          <td rowspan="6">1</td>
+          <td>0.5</td>
+          <td>0.05</td>
+          <td>
+            y1 = <input id="y11" type="number" step="any"> <hr>
+            y2 = <input id="y12" type="number" step="any"> <hr>
+            y3 = <input id="y13" type="number" step="any"> <hr>
+          </td>
+          <td>
+            λ1 = <span id="l11"></span> <hr>
+            λ2 = <span id="l12"></span> <hr>
+            λ3 = <span id="l13"></span> <hr>
+            <strong>&lambda;&#772; = <span id="la1"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="k011"></span> <hr>
+            <span id="k012"></span> <hr>
+            <span id="k013"></span> <hr>
+            <span id="k014"></span> <hr>
+          </td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>0.05</td>
+          <td>
+            y1 = <input id="y21" type="number" step="any"> <hr>
+            y2 = <input id="y22" type="number" step="any"> <hr>
+            y3 = <input id="y23" type="number" step="any"> <hr>
+          </td>
+          <td>
+            λ1 = <span id="l21"></span> <hr>
+            λ2 = <span id="l22"></span> <hr>
+            λ3 = <span id="l23"></span> <hr>
+            <strong>&lambda;&#772; = <span id="la2"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="k021"></span> <hr>
+            <span id="k022"></span> <hr>
+            <span id="k023"></span> <hr> 
+            <span id="k024"></span> <hr>
+          </td>
+        </tr>
+
+        <tr>
+          <td>0.5</td>
+          <td>0.1</td>
+          <td>
+            y1 = <input id="y31" type="number" step="any"> <hr>
+            y2 = <input id="y32" type="number" step="any"> <hr>
+            y3 = <input id="y33" type="number" step="any"> <hr>
+          </td>
+          <td>
+            λ1 = <span id="l31"></span> <hr>
+            λ2 = <span id="l32"></span> <hr>
+            λ3 = <span id="l33"></span> <hr>
+            <strong>&lambda;&#772; = <span id="la3"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="k031"></span> <hr>
+            <span id="k032"></span> <hr>
+            <span id="k033"></span> <hr> 
+            <span id="k034"></span> <hr>
+          </td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>0.1</td>
+          <td>
+            y1 = <input id="y41" type="number" step="any"> <hr>
+            y2 = <input id="y42" type="number" step="any"> <hr>
+            y3 = <input id="y43" type="number" step="any"> <hr>
+          </td>
+          <td>
+            λ1 = <span id="l41"></span> <hr>
+            λ2 = <span id="l42"></span> <hr>
+            λ3 = <span id="l43"></span> <hr>
+            <strong>&lambda;&#772; = <span id="la4"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="k041"></span> <hr>
+            <span id="k042"></span> <hr>
+            <span id="k043"></span> <hr> 
+            <span id="k044"></span> <hr>
+          </td>
+        </tr>
+
+        <tr>
+          <td>0.5</td>
+          <td>0.2</td>
+          <td>
+            y1 = <input id="y51" type="number" step="any"> <hr>
+            y2 = <input id="y52" type="number" step="any"> <hr>
+            y3 = <input id="y53" type="number" step="any"> <hr>
+          </td>
+          <td>
+            λ1 = <span id="l51"></span> <hr>
+            λ2 = <span id="l52"></span> <hr>
+            λ3 = <span id="l53"></span> <hr>
+            <strong>&lambda;&#772; = <span id="la5"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="k051"></span> <hr>
+            <span id="k052"></span> <hr>
+            <span id="k053"></span> <hr> 
+            <span id="k054"></span> <hr>
+          </td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>0.2</td>
+          <td>
+            y1 = <input id="y61" type="number" step="any"> <hr>
+            y2 = <input id="y62" type="number" step="any"> <hr>
+            y3 = <input id="y63" type="number" step="any"> <hr>
+          </td>
+          <td>
+            λ1 = <span id="l61"></span> <hr>
+            λ2 = <span id="l62"></span> <hr>
+            λ3 = <span id="l63"></span> <hr>
+            <strong>&lambda;&#772; = <span id="la6"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="k061"></span> <hr>
+            <span id="k062"></span> <hr>
+            <span id="k063"></span> <hr> 
+            <span id="k064"></span> <hr>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+    &nbsp; &nbsp;
+
+    <div class="biji wi"> <!-- TABEL 2 AFRI -->
+      <caption>TABEL 2 CELAH GANDA</caption>
+      <table>
+        <tr>
+        <th>n<br>(jumlah celah)</th>
+        <th>l<br>(m)</th>
+        <th>a x10<sup>-3</sup><br>(m)</th>
+        <th>d x10<sup>-3</sup><br>(m)</th>
+        <th>y<br>(m)</th>
+        <th>&lambda; (m)</th>
+        <th>KSR (%)</th>
+        </tr>
+
+        <tr>
+        <td rowspan="6">2</td>
+        <td>0.5</td>
+        <td>0.05</td>
+        <td>0.25</td>
+        <td>
+            y1 = <input id="2y11" type="number" step="any"> <hr>
+            y2 = <input id="2y12" type="number" step="any"> <hr>
+            y3 = <input id="2y13" type="number" step="any"> <hr>
+        </td>
+        <td>
+            λ1 = <span id="2l11"></span> <hr>
+            λ2 = <span id="2l12"></span> <hr>
+            λ3 = <span id="2l13"></span> <hr>
+            <strong>λ̄ = <span id="2la1"></span></strong> <hr>
+        </td>
+        <td>
+          <span id="2k011"></span> <hr>
+          <span id="2k012"></span> <hr>
+          <span id="2k013"></span> <hr>
+          <span id="2k014"></span> <hr>
+        </td>
+        </tr>
+
+        <tr>
+        <td>1</td>
+        <td>0.05</td>
+        <td>0.25</td>
+        <td>
+            y1 = <input id="2y21" type="number" step="any"> <hr>
+            y2 = <input id="2y22" type="number" step="any"> <hr>
+            y3 = <input id="2y23" type="number" step="any"> <hr>
+        </td>
+        <td>
+            λ1 = <span id="2l21"></span> <hr>
+            λ2 = <span id="2l22"></span> <hr>
+            λ3 = <span id="2l23"></span> <hr>
+            <strong>λ̄ = <span id="2la2"></span></strong> <hr>
+        </td>
+        <td>
+          <span id="2k021"></span> <hr>
+          <span id="2k022"></span> <hr>
+          <span id="2k023"></span> <hr>
+          <span id="2k024"></span> <hr>
+        </td>
+        </tr>
+
+        <tr>
+        <td>0.5</td>
+        <td>0.04</td>
+        <td>0.5</td>
+        <td>
+            y1 = <input id="2y31" type="number" step="any"> <hr>
+            y2 = <input id="2y32" type="number" step="any"> <hr>
+            y3 = <input id="2y33" type="number" step="any"> <hr>
+        </td>
+        <td>
+            λ1 = <span id="2l31"></span> <hr>
+            λ2 = <span id="2l32"></span> <hr>
+            λ3 = <span id="2l33"></span> <hr>
+            <strong>λ̄ = <span id="2la3"></span></strong> <hr>
+        </td>
+        <td>
+          <span id="2k031"></span> <hr>
+          <span id="2k032"></span> <hr>
+          <span id="2k033"></span> <hr>
+          <span id="2k034"></span> <hr>
+        </td>
+        </tr>
+
+        <tr>
+        <td>1</td>
+        <td>0.04</td>
+        <td>0.5</td>
+        <td>
+            y1 = <input id="2y41" type="number" step="any"> <hr>
+            y2 = <input id="2y42" type="number" step="any"> <hr>
+            y3 = <input id="2y43" type="number" step="any"> <hr>
+        </td>
+        <td>
+            λ1 = <span id="2l41"></span> <hr>
+            λ2 = <span id="2l42"></span> <hr>
+            λ3 = <span id="2l43"></span> <hr>
+            <strong>λ̄ = <span id="2la4"></span></strong> <hr>
+        </td>
+        <td>
+          <span id="2k041"></span> <hr>
+          <span id="2k042"></span> <hr>
+          <span id="2k043"></span> <hr>
+          <span id="2k044"></span> <hr>
+        </td>
+        </tr>
+
+        <tr>
+        <td>0.5</td>
+        <td>0.1</td>
+        <td>0.5</td>
+        <td>
+            y1 = <input id="2y51" type="number" step="any"> <hr>
+            y2 = <input id="2y52" type="number" step="any"> <hr>
+            y3 = <input id="2y53" type="number" step="any"> <hr>
+        </td>
+        <td>
+            λ1 = <span id="2l51"></span> <hr>
+            λ2 = <span id="2l52"></span> <hr>
+            λ3 = <span id="2l53"></span> <hr>
+            <strong>λ̄ = <span id="2la5"></span></strong> <hr>
+        </td>
+        <td>
+          <span id="2k051"></span> <hr>
+          <span id="2k052"></span> <hr>
+          <span id="2k053"></span> <hr>
+          <span id="2k054"></span> <hr>
+        </td>
+        </tr>
+
+        <tr>
+        <td>1</td>
+        <td>0.1</td>
+        <td>0.5</td>
+        <td>
+            y1 = <input id="2y61" type="number" step="any"> <hr>
+            y2 = <input id="2y62" type="number" step="any"> <hr>
+            y3 = <input id="2y63" type="number" step="any"> <hr>
+        </td>
+        <td>
+            λ1 = <span id="2l61"></span> <hr>
+            λ2 = <span id="2l62"></span> <hr>
+            λ3 = <span id="2l63"></span> <hr>
+            <strong>λ̄ = <span id="2la6"></span></strong> <hr>
+        </td>
+        <td>
+          <span id="2k061"></span> <hr>
+          <span id="2k062"></span> <hr>
+          <span id="2k063"></span> <hr>
+          <span id="2k064"></span> <hr>
+        </td>
+        </tr>
+      </table>
+    </div>
+
+    <br><br><br>
+
+    <div class="biji wi"> <!-- TABEL 3 AFRI-->
+      <Caption>TABEL 3 CELAH JAMAK</Caption>
+      <table>
+        <tr>
+          <th>n<br>(jumlah celah)</th>
+          <th>l<br>(m)</th>
+          <th>a x10<sup>-3</sup><br>(m)</th>
+          <th>d x10<sup>-3</sup><br>(m)</th>
+          <th>y<br>(m)</th>
+          <th>&lambda; (m)</th>
+          <th>KSR (%)</th>
+        </tr>
+      
+        <tr>
+          <td rowspan="2">3</td>
+          <td>0.5</td>
+          <td>0.04</td>
+          <td>0.2</td>
+          <td>
+            y1 = <input id="3y11" type="number" step="any"> <hr>
+            y2 = <input id="3y12" type="number" step="any"> <hr>
+            y3 = <input id="3y13" type="number" step="any"> <hr>
+          </td>
+          <td>
+            &lambda;1 = <span id="3l11"></span> <hr>
+            &lambda;2 = <span id="3l12"></span> <hr>
+            &lambda;3 = <span id="3l13"></span> <hr>
+            <strong>&lambda;&#772; = <span id="3la1"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="3k011"></span> <hr>
+            <span id="3k012"></span> <hr>
+            <span id="3k013"></span> <hr>
+            <span id="3k014"></span> <hr>
+          </td>
+        </tr>
+      
+        <tr>
+          <td>1</td>
+          <td>0.04</td>
+          <td>0.2</td>
+          <td>
+            y1 = <input id="3y21" type="number" step="any"> <hr>
+            y2 = <input id="3y22" type="number" step="any"> <hr>
+            y3 = <input id="3y23" type="number" step="any"> <hr>
+          </td>
+          <td>
+            &lambda;1 = <span id="3l21"></span> <hr>
+            &lambda;2 = <span id="3l22"></span> <hr>
+            &lambda;3 = <span id="3l23"></span> <hr>
+            <strong>&lambda;&#772; = <span id="3la2"></span></strong> <hr>
+          </td>
+          <td>
+            <span id="3k021"></span> <hr>
+            <span id="3k022"></span> <hr>
+            <span id="3k023"></span> <hr>
+            <span id="3k024"></span> <hr>
+          </td>
+        </tr>
+      </table>      
+    </div>
+
+    <br><br><br>
+
+    <br>
+    <button id="btn1" class="biji apply ge">Hitung</button>
+    &nbsp; &nbsp;
+    <button id="btn2" class="biji apply re">Reset</button>
+
+    <div id="overlay"></div>
+    <div id="pp">
+      <p>Kamu yakin ingin reset?</p>
+      <button class="yes" onclick="resY()">Ya</button>
+      <button class="no" onclick="resN()">Tidak</button>
+    </div>
+
+    <br><br>
+        Thanks to: <br>
+        - <a class="cl" href="https://www.w3schools.com/" target="_blank">W3 Schools</a> <br>
+        - <a class="cl" href="https://getcssscan.com/" target="_blank">Get CSS Scan</a> <br>
+        <br><br><br><br><br>
+  </span>
+
+  
+  <footer>
+    <p>&copy;2025 Muhammad Afriandy. 124130116</p>
+  </footer>
+
+  <script src="./ht1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<table>
+  <tr>
+    <th>n<br>(jumlah celah)</th>
+    <th>l<br>(m)</th>
+    <th>a x10<sup>-3</sup><br>(m)</th>
+    <th>d x10<sup>-3</sup><br>(m)</th>
+    <th>y<br>(m)</th>
+    <th>&lambda; (m)</th>
+    <th>KSR (%)</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2">3</td>
+    <td>0.5</td>
+    <td>0.04</td>
+    <td>0.2</td>
+    <td>
+      y1 = <input id="3y11" type="number" step="any"> <hr>
+      y2 = <input id="3y12" type="number" step="any"> <hr>
+      y3 = <input id="3y13" type="number" step="any"> <hr>
+    </td>
+    <td>
+      &lambda;1 = <span id="3l11"></span> <hr>
+      &lambda;2 = <span id="3l12"></span> <hr>
+      &lambda;3 = <span id="3l13"></span> <hr>
+      <strong>&lambda;&#772; = <span id="3la1"></span></strong> <hr>
+    </td>
+    <td><span id="3k01"></span></td>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>0.04</td>
+    <td>0.2</td>
+    <td>
+      y1 = <input id="3y21" type="number" step="any"> <hr>
+      y2 = <input id="3y22" type="number" step="any"> <hr>
+      y3 = <input id="3y23" type="number" step="any"> <hr>
+    </td>
+    <td>
+      &lambda;1 = <span id="3l21"></span> <hr>
+      &lambda;2 = <span id="3l22"></span> <hr>
+      &lambda;3 = <span id="3l23"></span> <hr>
+      <strong>&lambda;&#772; = <span id="3la2"></span></strong> <hr>
+    </td>
+    <td><span id="3k02"></span></td>
+  </tr>
+</table>
